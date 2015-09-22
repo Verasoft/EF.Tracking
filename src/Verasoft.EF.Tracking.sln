@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verasoft.EF.Tracking", "Verasoft.EF.Tracking\Verasoft.EF.Tracking.csproj", "{C7BB3EEB-3548-4571-A68E-4F2E3FC689BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verasoft.EF.Tracking.Nuget", "Verasoft.EF.Tracking.Nuget\Verasoft.EF.Tracking.Nuget.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4FE8756D-BBF7-4B01-B04D-B26902E50F03} = {4FE8756D-BBF7-4B01-B04D-B26902E50F03}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verasoft.EF.Tracking.Identity", "Verasoft.EF.Tracking.Identity\Verasoft.EF.Tracking.Identity.csproj", "{4FE8756D-BBF7-4B01-B04D-B26902E50F03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verasoft.EF.Tracking.Identity.Nuget", "Verasoft.EF.Tracking.Identity.Nuget\Verasoft.EF.Tracking.Identity.Nuget.csproj", "{BA3276D4-FAB7-4689-99BF-6AA3EA1E519B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF.Tracking", "EF.Tracking", "{22A397A6-18D8-47D3-910B-BDABDE14422C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verasoft.EF.Tracking.Tests", "Verasoft.EF.Tracking.Tests\Verasoft.EF.Tracking.Tests.csproj", "{74A00883-88E3-4987-A9E8-234DEBEFE873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{15A9494A-9926-401B-A837-8EBFE4F38919}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7BB3EEB-3548-4571-A68E-4F2E3FC689BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BB3EEB-3548-4571-A68E-4F2E3FC689BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BB3EEB-3548-4571-A68E-4F2E3FC689BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BB3EEB-3548-4571-A68E-4F2E3FC689BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE8756D-BBF7-4B01-B04D-B26902E50F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE8756D-BBF7-4B01-B04D-B26902E50F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE8756D-BBF7-4B01-B04D-B26902E50F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE8756D-BBF7-4B01-B04D-B26902E50F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3276D4-FAB7-4689-99BF-6AA3EA1E519B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3276D4-FAB7-4689-99BF-6AA3EA1E519B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3276D4-FAB7-4689-99BF-6AA3EA1E519B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A00883-88E3-4987-A9E8-234DEBEFE873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A00883-88E3-4987-A9E8-234DEBEFE873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A00883-88E3-4987-A9E8-234DEBEFE873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A00883-88E3-4987-A9E8-234DEBEFE873}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7BB3EEB-3548-4571-A68E-4F2E3FC689BD} = {22A397A6-18D8-47D3-910B-BDABDE14422C}
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389} = {22A397A6-18D8-47D3-910B-BDABDE14422C}
+		{4FE8756D-BBF7-4B01-B04D-B26902E50F03} = {22A397A6-18D8-47D3-910B-BDABDE14422C}
+		{BA3276D4-FAB7-4689-99BF-6AA3EA1E519B} = {22A397A6-18D8-47D3-910B-BDABDE14422C}
+		{74A00883-88E3-4987-A9E8-234DEBEFE873} = {22A397A6-18D8-47D3-910B-BDABDE14422C}
+	EndGlobalSection
+EndGlobal
